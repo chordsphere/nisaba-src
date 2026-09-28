@@ -1,0 +1,11 @@
+# bale.toml — nisaba-src. Written with the seed; `bale config init` is
+# the canonical editor and will rewrite this file from its walked
+# surface. No [validation] base: this repo pins no blind checkpoint
+# yet, so scoped packs need no oracle (the seed's registers are
+# planner-side records, graded at review).
+
+[identity]
+packer = "chordsphere"
+
+[staging]
+strategy = "target-base"
