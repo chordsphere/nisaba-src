@@ -410,6 +410,51 @@ not the register; the audits produce that.
 | Cadence rulings (doc-only sessions bump-exempt) | A project rule | The project's ADRs or the office's house rules | judgment |
 | §8 findings register: finding → disposition table | Traceability from an audit to the work it queued | A filed ledger page cross-linked to folders | shape |
 
+*Note, 2026-09-29 (`2026-09-29-suite-merge-001`).* Both audits applied
+on 2026-09-28 (`2026-09-28-master-audit-queue-001`,
+`2026-09-28-master-audit-ledger-002`); their registers under
+`registers/` are the register of record and supersede this first
+pass, and `blueprints/drafting-table.md` is the merge. The table above
+and the extraction plan below stand as written; the sitting accepted
+the audits' errata as found:
+
+- §4 has 133 rows, not 343. The queue audit: "The seed's 343 is the
+  whole-file count of `^[0-9]+\. \*\*` — 133 board rows plus 210
+  numbered evidence entries in §6."
+- §6 has 210 numbered entries, 10–219, contiguous, with entries 1–9
+  carried as one paragraph; the plan's 219 is the last number, not the
+  count.
+- §3 is mostly sitting-close narrative: forty `Landed <date>, …` blocks
+  make 3,645 of its 5,489 lines. The queue audit: "the per-sitting
+  narrative the header's going-forward convention says no longer
+  accretes in §2. It accretes in §3 instead."
+- §6 is not append-only at the body level. The ledger audit: "Nineteen
+  dated `[YYYY-MM-DD: …]` appendices and eleven running occurrence
+  counts are written into entries at later sittings. Numbers are
+  append-only."
+- Condensation reached §5 and §6, not only §2. The ledger audit: "§5
+  opens with a `Carried forward:` paragraph of pre-v4 rulings with no
+  dates and no sources; §6's entries 1–9 are one paragraph."
+- §7 is a third environment facts. The ledger audit: "The rest is
+  version landmarks (bale-already) and desk-practice rules that
+  accreted there — include rules, forecast rules, dispatch checks,
+  "one-apply-behind held for" instances." The "mostly exists" row is
+  three kinds, not one.
+- §5's 117 rulings have no ids. The ledger audit: "117 bold leads,
+  cited by name in prose. The seed's `amendment_target` for exchange
+  answers has nothing stable to point at until they do." (Q-12.)
+- The board row's real field set is, in the queue audit's words,
+  "number, title, status, date, a class parenthetical, a source, sids,
+  and dated brackets." What / Why / Scope hints, "rides row N" and
+  "consumed at" belong to the fold-in registry: "On the board they are
+  rare (21 labels on 9 rows; one "rides row"; two "consumed at"). In
+  the fold-in registry they are the norm (75 labels; 83 "rides"; 59
+  "consumed")."
+- The table's compound kinds ("shape + judgment", "mostly exists",
+  "drop (bale's docs)") are not register kinds; the registers use four
+  (Q-10). The fold-in registry's home is not the suggestion box
+  (Q-11).
+
 **The extraction plan** (N9). Two audit sessions, packed from this
 repo, each landing one register file under `registers/`:
 
@@ -498,6 +543,13 @@ affects.
   "sitting-close-deltas" ceremony (nineteen sessions to date)
   retires with it. The read-only rule for sittings predates
   ADR-0015; since then only writes lock.
+
+  [2026-09-29: answered "as assumed" to the sitting's light block [1],
+  carried in the brief of `2026-09-29-suite-merge-001`: "yes; the
+  close blocks become notepad pages plus cleanup". Sittings write
+  `drafting-table/` and `notepad/` directly, and the sitting-close
+  ceremony retires with them. The sitting kind is
+  `blueprints/drafting-table.md` §5.]
 - **Q-5 — Where spend lands.** Carried from `harness-seed.md` Q-8:
   bale's telemetry has carried an all-null `attempts[].cost` block
   since 0.4.6 with no verb to fill it. Either bale grows an input
@@ -523,6 +575,49 @@ affects.
   building. The architect declined the agent's earlier metaphor
   proposals (office-src sitting, messages 7–8); nothing here depends
   on resolving it.
+- **Q-10 — The register's kind vocabulary.** Asked 2026-09-28 (the
+  sitting's light block [2]).
+
+  [2026-09-29: answered "as assumed" — "four; the queue audit's split
+  of one seed row into five is the right shape". The kind column stays
+  `shape`, `judgment`, `bale-already`, `content`, with no compound
+  kinds; a row whose shape the office's stronger rule makes
+  unnecessary stays `shape` with "home: none". Pinned in
+  `registers/README.md`.]
+- **Q-11 — The fold-in registry's office home.** Asked 2026-09-28 (the
+  sitting's light block [3]).
+
+  [2026-09-29: answered "as assumed" — "yes; slips stay friction
+  reports as OFFICE.md 5 defines them". Small carried work lives on a
+  riders page on the drafting-table plus a `Riders` section in
+  `folder.md`, not in the suggestion box. `blueprints/drafting-table.md`
+  §1 and §2.]
+- **Q-12 — Stable ruling ids.** Accepted 2026-09-28 from
+  `2026-09-28-master-audit-ledger-002`'s Proposals; open, recorded
+  2026-09-29. Recommended: every ruling on the drafting-table's
+  rulings ledger carries an id of the form `YYYY-MM-DD-slug`, minted
+  when the ruling is written and never changed; an exchange answer's
+  `amendment_target` names the id of the ruling as first minted.
+  MASTER.md §5's 117 rulings get ids when their content is filed, not
+  before (N3). `blueprints/drafting-table.md` §1 says why that shape
+  and not a number.
+- **Q-13 — `office watches check`.** Accepted 2026-09-28 from
+  `2026-09-28-master-audit-queue-001`'s Proposals; open, recorded
+  2026-09-29. Recommended: the check starts from the seven
+  machine-evaluable watches the queue register names, each with its
+  `bale stats` query and threshold as data; the four conditions that
+  need a datum bale does not stamp today are slips for bale-src and
+  are never guessed office-side (OFFICE.md §10).
+  `blueprints/drafting-table.md` §3.
+- **Q-14 — The close-by-reversal check on every ledger write.**
+  Accepted 2026-09-28 from `2026-09-28-master-audit-ledger-002`'s
+  Proposals; open, recorded 2026-09-29. Recommended: inherit it as the
+  office's check on every write to filed paper, whichever verb does
+  the writing — a `validation.sh` fragment in every session that
+  forecasts filed drafting-table or notepad paper, the same check
+  in-process in the scripts that append to it, and `office status`
+  re-checking git after the fact. It depended on Q-4, now answered.
+  `blueprints/drafting-table.md` §5.
 
 ---
 
@@ -571,6 +666,13 @@ line; the two audits are authored with this seed.
 7. **nisaba-src: the shell** — walking in, folders, the session
    pane, the four inboxes; parity test against the three
    registries.
+
+[2026-09-29: steps 1 and 2 are done. The two audits applied on
+2026-09-28 (`2026-09-28-master-audit-queue-001`,
+`2026-09-28-master-audit-ledger-002`); the merge is
+`2026-09-29-suite-merge-001`, which pinned the register anchor grammar
+and landed `blueprints/drafting-table.md`, the input to step 3. That
+blueprint's §8 cuts steps 3 and 4 into four office-src sessions.]
 
 ---
 
