@@ -289,6 +289,20 @@ default face") — the chat is a hosted office session (N4, Q-1) and
 the face is the shell (N6); D22's "the harness chat is the planning
 desk" is re-read as "a sitting is an office session twine hosts."
 
+[2026-10-02: twine's first sitting (`2026-09-29-begin-harness-001`,
+packed from twine-src) ruled, ratified by the architect, that twine
+has three faces and one core: the **courier**, the **runtime** and
+the **scheduler**. The runtime hosts a session — the model-call loop,
+the tool surface, the per-sid sandbox, window accounting, the cost
+spine and kill-switch, and the adapters that let a given model do all
+of that — for worker sessions and for sittings alike. This section's
+"The courier and the scheduler, and nothing else" therefore reads
+with the runtime as the third face, the one its own sentence "executes
+the agent loop as operator" already describes; N4 is unchanged — the
+runtime hosts intent-bearing conversations and owns none of them.
+twine-src's `twine-seed.md` T4 carries the ruling; T6, T7 and T11 its
+tool-calling, capability-registry and effort designs.]
+
 ### 3.4 nisaba — the shell
 
 One UI, in its own repo, for all three cores. Its home screen is
@@ -571,6 +585,13 @@ affects.
   references; whether that file is superseded by this seed or kept
   as twine's own seed under it. Recommended: kept, as twine's, with
   a header pointing here and D9/D22 marked retired by N4.
+
+  [2026-10-02: answered at twine's first sitting, ratified: there is
+  no rename. twine-src is a fresh repository whose seed,
+  `twine-seed.md`, is derived from `harness-seed.md` — D1–D24 carried
+  byte-for-byte with a dated status each, D9 retired and D22 re-read
+  as this seed's N4 and Q-1 recommend — and `~/tedder-src` stands as
+  archive, untouched (`twine-seed.md` T1).]
 - **Q-9 — Metaphor.** bale and twine are hay; the office is a
   building. The architect declined the agent's earlier metaphor
   proposals (office-src sitting, messages 7–8); nothing here depends
@@ -673,6 +694,15 @@ line; the two audits are authored with this seed.
 `2026-09-29-suite-merge-001`, which pinned the register anchor grammar
 and landed `blueprints/drafting-table.md`, the input to step 3. That
 blueprint's §8 cuts steps 3 and 4 into four office-src sessions.]
+
+[2026-10-02: steps 3 and 4 are done in office-src 0.5.0 (the
+drafting-table space, the verb-table columns, the read side and the
+desk verbs). Step 6 has begun, in a changed order ratified at twine's
+first sitting: twine's arcs run courier, runtime, scheduler
+(`twine-seed.md` T5), because "a scheduler before a runtime would only
+have a person to dispatch to". Arc 1, the courier, is under way in
+twine-src: the core and its registry, `twine take` and `twine carry
+probe` have landed.]
 
 ---
 
