@@ -285,6 +285,11 @@ on the same day takes `-2`. Four reasons, in order of weight:
    than one stream (bale-src's MASTER.md §5, office-src's own
    sittings); a sequence would collide at the merge, a date and slug
    will not.
+
+   [2026-10-02: "the Nisaba office" here is the home office,
+   `~/home-office`, founded 2026-09-30; see the annotation beneath
+   `nisaba-seed.md` N8.]
+
 4. It reads in prose. "ruling 2026-08-31-no-packaging-trio" says when
    and what; "ruling 118" says neither. (That id is illustrative: the
    ruling that closed MASTER.md's forecast-precision watch, as it
@@ -809,6 +814,10 @@ office's suggestion box naming bale-src (OFFICE.md §5); until the
 Nisaba office exists (seed N8), it goes to bale-src's own queue (its
 MASTER.md fold-in registry).
 
+[2026-10-02: "the Nisaba office" here is the home office,
+`~/home-office`, founded 2026-09-30; see the annotation beneath
+`nisaba-seed.md` N8.]
+
 **Behavior.** For each open watch and each standing-line query, per
 project the office scopes (§4):
 a `query` watch runs its query over the window since its last `fired`
@@ -1243,6 +1252,10 @@ re-opens it.
 | Reading projects on another machine | read side | Q-2 | what "online" means for office is open | Q-2 answered |
 | A chat's landing | kind | Q-3 | the `chat` declaration carries the recommended landing, not a ruled one | Q-3 answered |
 
+[2026-10-02: "the Nisaba office" in the rows above is the home
+office, `~/home-office`, founded 2026-09-30; see the annotation
+beneath `nisaba-seed.md` N8.]
+
 Judgment rows homed as doctrine lines or house rules, collected so the
 office-src session that lands OFFICE.md text finds them in one place:
 
@@ -1327,6 +1340,10 @@ to bale-src's own queue (its MASTER.md fold-in registry), each
 confirmed by the probe in session 3 first. Once 1–4 have landed, the
 Nisaba office can be founded (seed N8) and the content sessions of
 seed §10 step 5 can file MASTER.md.
+
+[2026-10-02: "the Nisaba office" here is the home office,
+`~/home-office`, founded 2026-09-30; see the annotation beneath
+`nisaba-seed.md` N8.]
 
 ---
 
