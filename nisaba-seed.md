@@ -82,6 +82,13 @@ The layer cake, with dependencies pointing strictly downward:
   an office on a machine with no API access still gets the shell,
   with the person as courier.
 
+[2026-10-02: twine has three faces, not two: courier, runtime and
+scheduler. The runtime hosts a session (the model-call loop, the tool
+surface, the sandbox, the cost spine and kill-switch), and the
+annotation beneath §3.3 records the ruling (`twine-seed.md` T4). The
+component line for twine above and the diagram's "courier +
+scheduler" predate it, and stand as written.]
+
 ---
 
 ## 2. Rulings from the sitting
@@ -141,6 +148,14 @@ test: if twine's local state were deleted, what is lost? Spend
 history and nothing else. Any design that would make the answer "a
 plan" or "a conversation" is on the wrong side of the line.
 
+[2026-10-02: the heading's two faces are now three. Twine's first
+sitting added the runtime, which hosts a session's model-call loop;
+the annotation beneath §3.3 records it (`twine-seed.md` T4). The
+ruling's substance stands: twine holds no intent. Its deletion test
+gains one item, in T4's words: "Delete twine's state and you lose
+spend history and transcripts-as-logs; every word that mattered
+landed through bale or in the office."]
+
 **N5 — CLI and UI for office and for twine; offline and online for
 both.** Ratified (message 4: "for 'the seat', I disagree that twine
 is 'web'. I want both offline and online options for both, and I also
@@ -186,6 +201,26 @@ Until then bale-src keeps MASTER.md, office-src keeps its front
 sheet and sittings under `claude/`, and this repo keeps this seed
 and the registers.
 
+[2026-10-02: the Nisaba office is the home office, `~/home-office`
+on chordsphere. The architect wrote, after twine's first sitting
+(`2026-09-29-begin-harness-001`) had closed, in its message 12,
+verbatim: "one last thing, I developed offce to the point where
+"nisaba office" is out of date language. I just have one home
+office, probe if you need facts to update the plan". Probe
+`home-office` found it founded on 2026-09-30 by `office init` from
+office-src 0.4.0, its install now 0.5.0, and its profile's Purpose,
+verbatim: "This is the occupant's one office on chordsphere for
+everything that is theirs alone: their own tools (bale-src,
+office-src, twine-src, nisaba-src), personal research and analysis,
+and the jobs of their life outside work: buying a house,
+renovations, family planning." It is wider than this ruling
+imagined, under one set of house rules, and it was founded before the
+drafting-table this ruling made its precondition: the drafting-table
+is a renovation space, and office-src's `renovate` verb is not built
+in 0.5.0. The quotation above that says "a nisaba office" stands as
+said. What remains of §10 step 5 is in the 2026-10-02 annotations
+closing §10.]
+
 **N9 — The extraction runs as two audit sessions split at MASTER.md's
 §4/§5 seam, followed by a merge.** Ratified (message 6, answer 2).
 The queue audit covers §3 (in flight, watches) and §4 (the board);
@@ -202,6 +237,12 @@ haven't updated it anywhere yet"). The repo is still `~/tedder-src`
 on chordsphere; `~/tedder-src-v0` is an earlier, unrelated attempt.
 The rename of the repo and of `harness-seed.md`'s references is a
 session of its own and is not scheduled by this seed.
+
+[2026-10-02: the last two sentences above are superseded: there is no
+rename. Twine's first sitting derived twine into a fresh repository,
+twine-src, and left `~/tedder-src` untouched as archive
+(`twine-seed.md` T1; the annotation beneath Q-8 records it). The
+ruling itself stands: the name tedder is retired for twine.]
 
 ---
 
@@ -244,6 +285,13 @@ are packed from the project with the office's context riding beside
 them as a context tarball. Hung items (the profile, the survey,
 whatever a renovation hangs) ride with every office session through
 bale's include group.
+
+[2026-10-02: office-src's install on chordsphere is 0.5.0, three
+minors past the 0.2.0 this paragraph describes; the 2026-10-02
+annotation in §10 says what steps 3 and 4 landed. One thing it does
+not say: the drafting-table is a renovation space, and office-src's
+`renovate` verb is not built in 0.5.0, so the home office has none
+yet (probe `home-office`, 2026-10-02).]
 
 What this seed adds (N3, section 6): the office is also the home of
 a project's **progression** — the queue of work with its ordering
@@ -703,6 +751,30 @@ first sitting: twine's arcs run courier, runtime, scheduler
 have a person to dispatch to". Arc 1, the courier, is under way in
 twine-src: the core and its registry, `twine take` and `twine carry
 probe` have landed.]
+
+[2026-10-02: step 5's founding half is done, ahead of the
+drafting-table: the Nisaba office is the home office, `~/home-office`,
+founded 2026-09-30 (the annotation beneath N8). What remains of step 5
+is the home office's renovation with the drafting-table, which waits
+on office-src's `renovate` verb, and then the content-filing sessions;
+that remainder runs beside step 6, not before it. Light block 6 of
+twine's first sitting asked whether twine started ahead of step 5 by
+the architect's direction; its default, "yes; your 2026-10-01 message
+("hopefully that brings us to the point we can develop twine-src")
+was the direction, and step 5 runs beside twine, not before it", was
+answered "as assumed" on 2026-10-02. The founding date refines it:
+twine began on 2026-10-01, after the founding, so what runs beside
+twine is the rest of step 5.]
+
+[2026-10-02: within step 6, two things moved. The online loop is no
+longer the courier's: it is twine's second arc, the runtime
+(`twine-seed.md` T5, and the correction beneath its Arc 1 table that
+moved the table's loop row to Arc 2). The cost spine and kill-switch
+stay in the first arc, as its session 5, built against fixtures
+before any online call exists (`twine-seed.md` D15, as carried). By
+face they belong to the runtime, which is where the annotation
+beneath §3.3 lists them: the face is what runs them, the arc is when
+they are built.]
 
 ---
 
